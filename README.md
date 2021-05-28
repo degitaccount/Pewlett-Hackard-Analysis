@@ -30,3 +30,7 @@ The following tables provide the summaries by title and gender.
 
 ![Gender_Summary](https://github.com/degitaccount/Pewlett-Hackard-Analysis/blob/main/Analysis_Projects/Pewlett-Hackard-Analysis/Images/Gender_Summary.png?raw=true)
 
+
+
+
+
