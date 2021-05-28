@@ -26,6 +26,7 @@ If the company maintains its current operating structure, it will need to replac
 
 The following tables provide the summaries by title and gender.
 
-<INSERT TITLE SUMMARY>
+![Titles_Summary](https://github.com/degitaccount/Pewlett-Hackard-Analysis/blob/main/Analysis_Projects/Pewlett-Hackard-Analysis/Images/Titles_Summary.png?raw=true)
 
-<INSERT GENDER SUMMARY>
+![Gender_Summary](https://github.com/degitaccount/Pewlett-Hackard-Analysis/blob/main/Analysis_Projects/Pewlett-Hackard-Analysis/Images/Gender_Summary.png?raw=true)
+
