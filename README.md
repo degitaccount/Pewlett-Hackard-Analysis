@@ -13,10 +13,12 @@ This analysis identifies employees who are reaching retirement age, by job title
 
 *	There are 1,549 employees eligible for the mentorship program, which represents only 1.7% of the population that is eligible to retire
 
-*	Business continuity will be dependent on several factors:
-> * Staggering or delaying retirements, which could require an investment in retention bonuses
-> * The success of the proposed mentorship program
-> * An aggressive external recruitment strategy
+*	Business continuity will be partially dependent on three key factors:
+    1. Staggering or delaying retirements, which could require an investment in retention bonuses
+
+    2. The success of the proposed mentorship program
+
+    3. An aggressive external recruitment strategy
 
 ### **Summary**
 
