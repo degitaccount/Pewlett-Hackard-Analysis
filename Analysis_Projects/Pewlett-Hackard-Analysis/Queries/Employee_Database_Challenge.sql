@@ -55,3 +55,40 @@ INTO mentorship_titles
 FROM mentorship_eligibility as me
 GROUP BY me.title
 ORDER BY count DESC;
+
+--Unique titles with gender
+SELECT DISTINCT ON (rt.emp_no) rt.emp_no,
+	rt.first_name,
+	rt.last_name,
+	rt.title,
+	ee.gender
+INTO retiring_gender
+FROM retirement_titles as rt
+LEFT JOIN employees as ee
+ON rt.emp_no = ee.emp_no
+ORDER BY rt.emp_no, rt.to_date DESC;
+
+SELECT count(ee.emp_no), ee.gender
+INTO gender_count
+FROM employees as ee
+GROUP BY ee.gender
+ORDER BY count;
+
+SELECT gc.gender, gc.count as "Totals by Gender", rt.count as "Retiring by Gender"
+INTO gender_summary
+FROM gender_count as gc
+LEFT JOIN ret_count as rt
+ON gc.gender = rt.gender
+
+SELECT rt.title as "Title", rt.count as "Retiring Count", mt.count as "Mentorship Count"
+INTO titles_summary
+FROM retiring_titles as rt
+LEFT JOIN mentorship_titles as mt
+ON rt.title = mt.title
+
+
+
+
+
+
+
